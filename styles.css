@@ -1,0 +1,44 @@
+.imageContainer{
+    width:500px;
+    height: 100%;
+    background:blue;
+    display: flex;
+    transition: transform 1s linear;
+    transform: translateX(0);
+}
+
+.carouselContainer{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: auto;
+    border:2px solid black;
+    overflow-x: hidden;
+}
+
+.mybtn{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background: green;
+}
+
+.myImage{
+    min-width: 500px;
+    height: 100%;
+    background:red;
+    display: inline-block;
+    background: center;
+    background-size: 100% 100%;
+
+}
+
+.btn-prev{
+
+}
+
+.btn-next{
+
+}
